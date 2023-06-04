@@ -131,7 +131,7 @@ def main():
     #     text='github.com/gpoore/text2qti',
     #     font=(None, 14), fg='blue', cursor='hand2',
     # )
-    # header_link_label.bind('<Button-1>', lambda x: webbrowser.open_new('https://github.com/gpoore/text2qti'))
+    # header_link_label.bind('<Button-1>', lambda x: webbrowser.open_new('https://github.com/DiegoHiguita/ConversorLMS_TFG.git'))
     # header_link_label.grid(
     #     row=current_row, column=1, columnspan=1, padx=(30, 30),
     #     sticky='nsew',
