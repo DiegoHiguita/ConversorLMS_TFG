@@ -83,8 +83,9 @@ def main():
 
 
     current_row = 0
-
-    iconos=leerIconos("iconos/imagenes.txt")#Obtenemos las imagenes que se usaran en la interfaz
+    rutaIconos = os.path.join(os.path.dirname(__file__), 'iconos/imagenes.txt')
+    
+    iconos=leerIconos(rutaIconos)#Obtenemos las imagenes que se usaran en la interfaz
     icono = PhotoImage(data=b64decode(iconos[0]))
     info = PhotoImage(data=b64decode(iconos[5]))
     
