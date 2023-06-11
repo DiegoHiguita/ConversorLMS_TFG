@@ -197,6 +197,15 @@ class moodle2QTI():
             u = uuid.uuid1()  
             ident = u.hex
             text=str(ident)
+            
+        text = re.sub('/','',text)
+        text = re.sub('\*','',text)
+        text = re.sub(':','',text)
+        text = re.sub('\?','',text)
+        text = re.sub('"','',text)
+        text = re.sub('<','',text)
+        text = re.sub('>','',text)
+        text = re.sub('\|','',text)
 
         return text
 
