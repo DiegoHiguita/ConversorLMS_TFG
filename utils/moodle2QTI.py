@@ -615,7 +615,7 @@ class moodle2QTI():
     """
     def writequestionfile(self,questestinterop, filename):
         f = open(filename, "w")
-        f.write('<?xml version="1.0" encoding="utf-8" standalone="yes"?>')
+        f.write('<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>')
         try:
             f.write(ET.tostring(questestinterop, encoding='utf-8', method='xml').decode('utf-8'))
         except Exception as e:
