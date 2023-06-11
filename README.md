@@ -24,8 +24,8 @@ Antes de ejecutar el programa, asegurese de que tiene los permisos de ejecución
     - 2. Selecciona "Obtener información" en el menú contextual.Se abre una ventana de informacion para el programa. 
     - 3. En la sección "General", asegúrese de que la opción "Bloqueado" esté desmarcada. Si está marcada, haz clic en el candado en la 
     esquina inferior derecha de la ventana y proporciona tus credenciales de administrador para desbloquear los cambios.
-    -4. En la sección "Permisos", haz clic en el triángulo al lado de "Todos" para expandir las opciones.
-    -5. Junto a "Derechos de acceso", seleccione "Leer y escribir" para otorgar permisos de ejecución.
+    - 4. En la sección "Permisos", haz clic en el triángulo al lado de "Todos" para expandir las opciones.
+    - 5. Junto a "Derechos de acceso", seleccione "Leer y escribir" para otorgar permisos de ejecución.
 
   
 -------------------------------------------------------------------------------------------------------------------------------------------
